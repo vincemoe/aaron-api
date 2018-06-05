@@ -21,7 +21,11 @@ quotes = ["'You also have permission to tickle Tom now' - Aaron B",
           "'As a capitalist merc with proletariat tendencies, I endorse this private room' - Aaron B",
           "'Don't start projects you don't plan on finishing (Or Something Like That)' - Aaron B",
           "'If we hire another midwesterner, I'll show up, scream 'There can be only ONE!' and disembowel said individual.' - Aaron B",
-          "'David Letterman, he went to my high school.' - Aaron B"]
+          "'David Letterman, he went to my high school.' - Aaron B",
+          "'Don't Google that if you're unsure.' - Aaron B",
+          "'I've always enjoyed this article (no relation).' - Aaron B",
+          "'You're such a Cathy.' - Aaron B"
+          ]
 
 
 class User(Resource):
