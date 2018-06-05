@@ -27,11 +27,14 @@ class User(Resource):
     def get(self):
         quotetext = random.choice(quotes)
         if quotetext != "":
-            return quotetext, 200
+            return {
+                       "response_type": "in_channel",
+                       "text": quotetext,
+                   }, 200
         else:
             return "Quote not found", 404
 
 
 api.add_resource(User, "/quote")
 
-app.run(debug=True, host='35.231.42.126')
+app.run(debug=True, host='0.0.0.0')
