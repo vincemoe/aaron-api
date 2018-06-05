@@ -19,7 +19,9 @@ quotes = ["'You also have permission to tickle Tom now' - Aaron B",
           "'Just saw a dude with a giant juggalo tattoo biking next to his friend with a duster and matrix glasses going by...my day might need to end' - Aaron B",
           "'If I type 'cocker'....one more time' - Aaron B",
           "'As a capitalist merc with proletariat tendencies, I endorse this private room' - Aaron B",
-          "'Don't start projects you don't plan on finishing (Or Something Like That)' - Aaron B",]
+          "'Don't start projects you don't plan on finishing (Or Something Like That)' - Aaron B",
+          "'If we hire another midwesterner, I'll show up, scream 'There can be only ONE!' and disembowel said individual.' - Aaron B",
+          "'David Letterman, he went to my high school.' - Aaron B"]
 
 
 class User(Resource):
