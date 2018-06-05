@@ -28,6 +28,7 @@ quotes = ["'You also have permission to tickle Tom now' - Aaron B",
           ]
 
 
+
 class User(Resource):
 
     def get(self):
