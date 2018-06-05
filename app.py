@@ -34,4 +34,4 @@ class User(Resource):
 
 api.add_resource(User, "/quote")
 
-app.run(debug=True, host='0.0.0.0')
+app.run(debug=True, host='35.231.42.126')
