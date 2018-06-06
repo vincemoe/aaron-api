@@ -20,7 +20,7 @@ quotes = [
     "I've always enjoyed this article (no relation).",
     "You're such a Cathy.",
     "I come for the beer...I stay for the 'WHAT THE F*CK ARE YOU TALKING ABOUT?'",
-    "I'm no Quant, so who knows. But I am a die Bayesian enthusiast."
+    "I'm no Quant, so who knows. But I am a die Bayesian enthusiast.",
     "Watch out for Lithuanians.",
     "File that under Abso then lutely",
     "Give this man a raise NOTE: Aaron Burgess has no control over raises.",
