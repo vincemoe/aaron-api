@@ -46,4 +46,5 @@ quotes = [
     "Oh, you're being ignored",
     "You get a pretzel",
     "And role of trojan horse is played by Danbury",
+    "I'm watching aws-multinet get pounded and I like it"
 ]
