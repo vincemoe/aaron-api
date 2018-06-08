@@ -1,6 +1,5 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
-import random
 import os
 from quotes import quotes as q
 
@@ -10,12 +9,15 @@ api = Api(app)
 
 class User(Resource):
 
+    quote = iter(q)
+
     def get(self):
         parser = reqparse.RequestParser()
         parser.add_argument("token")
         args = parser.parse_args()
 
-        quotetext = random.choice(q)
+        quotetext = next(self.quote)
+
         if quotetext != "" and os.environ['TOKEN'] == args["token"]:
             return {
                        "response_type": "in_channel",
