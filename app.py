@@ -11,12 +11,19 @@ class User(Resource):
 
     quote = iter(q)
 
+    def reset_iterator(self):
+        User.quote = iter(q)
+
     def get(self):
         parser = reqparse.RequestParser()
         parser.add_argument("token")
         args = parser.parse_args()
 
-        quotetext = next(self.quote)
+        try:
+            quotetext = next(self.quote)
+        except StopIteration:
+            User.reset_iterator(self)
+            quotetext = next(self.quote)
 
         if quotetext != "" and os.environ['TOKEN'] == args["token"]:
             return {
